@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Connect firebase to the project
     //add commit
+    //pushing to remote commit
+    //another code
     
 }
