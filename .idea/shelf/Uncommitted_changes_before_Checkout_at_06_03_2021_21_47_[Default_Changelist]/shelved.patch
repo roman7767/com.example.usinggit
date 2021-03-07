@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/example/usinggit/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.usinggit;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n\r\n        String hello = \"Hello git\";\r\n        String newHello = \"Hey there\";\r\n    }\r\n\r\n    //Connect firebase to the project\r\n    //add commit\r\n    \r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/usinggit/MainActivity.java	(revision 49df4230ccc6cad7efb04cb210306c205d251176)
++++ app/src/main/java/com/example/usinggit/MainActivity.java	(date 1615060040031)
+@@ -17,5 +17,5 @@
+ 
+     //Connect firebase to the project
+     //add commit
+-    
++
+ }
+\ No newline at end of file
